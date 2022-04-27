@@ -5,6 +5,7 @@
 #include <arpa/inet.h> //inet_addr
 #include "fileStruct.h"
 
+
 ClientInfo *client[100];
 int clientIndex = 0;
 const int MaxSize = 2000;
